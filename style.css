@@ -20,17 +20,16 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 30px;  
+  padding: 10px 25px;  
   backdrop-filter: blur(6px);
   z-index: 1000;
 }
 
 
 .logo img {
-  height: 100px;   
+  height: 55px;
   width: auto;
-  border-radius: 8px;
-}
+  border-radius: 6px;
 }
 
 .nav-links {
@@ -582,6 +581,7 @@ footer {
 .keunggulan .point h3,
 .keunggulan .point p {
     color: #ffffff !important;
+
 
 
 
