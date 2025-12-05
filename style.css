@@ -552,7 +552,7 @@ footer {
 .keunggulan {
   text-align: center;
   color: white;
-  margin-top: 40px; /* menurunkan section */
+  margin-top: 40px;
 }
 
 .keunggulan h2 {
@@ -563,19 +563,23 @@ footer {
 
 .keunggulan .point {
   max-width: 600px;
-  margin: 0 auto 20px auto;
-  text-align: left; /* kalau mau rata tengah ganti 'center' */
+  margin: 0 auto 12px auto; /* jarak antar poin dipersempit */
+  padding-top: 5px;         /* sedikit dinaikkan */
+  text-align: left;
 }
 
 .keunggulan .point h3 {
-  margin: 0 0 5px 0;
+  margin: 0 0 3px 0;        /* subjudul lebih dekat dengan deskripsi */
   font-size: 18px;
   font-weight: bold;
   color: white;
 }
 
 .keunggulan .point p {
-  margin: 0 0 10px;
+  margin: 0 0 5px;
   color: white;
-  line-height: 1.5;
+  line-height: 1.4;         /* sedikit lebih rapat */
 }
+
+}
+
