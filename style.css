@@ -1,3 +1,7 @@
+body {
+    transform: scale(0.9);
+    transform-origin: top center;
+}
 /* Reset */
 * {
   margin: 0;
@@ -582,6 +586,7 @@ footer {
 .keunggulan .point h3,
 .keunggulan .point p {
     color: #ffffff !important;
+
 
 
 
