@@ -550,35 +550,33 @@ footer {
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
 }
 .keunggulan {
-  text-align: center;
-  color: white;
-  margin-top: 40px;
+    max-width: 800px;
+    margin: 100px auto 60px auto; /* bikin ke tengah + jarak atas bagus */
+    padding: 20px;
+    text-align: center;
 }
 
 .keunggulan h2 {
-  font-size: 28px;
-  margin-bottom: 25px;
-  color: white;
+    color: #ffffff;
+    margin-bottom: 40px; /* jarak judul ke isi */
+    font-size: 32px;
 }
 
 .keunggulan .point {
-  max-width: 600px;
-  margin: 0 auto 12px auto;
-  padding-top: 5px;
-  text-align: left;
+    margin-bottom: 30px; /* jarak antar poin */
+    text-align: left; /* biar paragraf rapi */
 }
 
 .keunggulan .point h3 {
-  margin: 0 0 3px 0;
-  font-size: 18px;
-  font-weight: bold;
-  color: white !important;    /* memastikan tetap putih */
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 8px;
 }
 
 .keunggulan .point p {
-  margin: 0 0 5px;
-  color: white !important;    /* memastikan tetap putih */
-  line-height: 1.4;
+    color: #ffffff;
+    margin: 0;
+    line-height: 1.6;
 }
 .keunggulan {
   margin-top: 80px;
@@ -589,4 +587,5 @@ footer {
 .keunggulan .point h3,
 .keunggulan .point p {
     color: #ffffff !important;
+
 
