@@ -583,3 +583,7 @@ footer {
 .keunggulan {
   margin-top: 80px;
 }
+.keunggulan .point h3,
+.keunggulan .point p {
+    color: #ffffff !important;
+}
