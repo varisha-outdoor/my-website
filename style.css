@@ -549,20 +549,21 @@ footer {
   transform: scale(1.05);
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
 }
-.keunggulan {
-    max-width: 800px;     /* Lebar konten dibatasi */
-    margin: 0 auto;       /* Biar posisinya di tengah */
-    padding: 40px 20px;   /* Tambahan ruang biar tidak terlalu mepet */
-    text-align: left;     /* Biar tulisan rapi seperti paragraf normal */
+..keunggulan {
+    max-width: 1200px;    
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: left;
 }
 
 .keunggulan h2 {
     text-align: center;
     margin-bottom: 30px;
+    color: #ffffff;
 }
 
 .keunggulan .item {
-    margin-bottom: 25px;  /* Jarak antar item tidak terlalu jauh */
+    margin-bottom: 25px;
 }
 
 .keunggulan .item h3 {
@@ -572,6 +573,7 @@ footer {
 
 .keunggulan .item p {
     color: #ffffff;
+    line-height: 1.5;
 }
 .keunggulan {
   margin-top: 80px;
@@ -582,6 +584,7 @@ footer {
 .keunggulan .point h3,
 .keunggulan .point p {
     color: #ffffff !important;
+
 
 
 
