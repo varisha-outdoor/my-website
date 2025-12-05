@@ -532,3 +532,21 @@ footer {
   transform: scale(1.05);
   box-shadow: 0 6px 14px rgba(0,0,0,0.3);
 }
+/* Tombol Lihat Produk */
+.hero-button {
+  display: inline-block;
+  background-color: #0f7e4a; /* hijau */
+  color: #ffffff; /* tulisan putih */
+  font-weight: bold;
+  text-decoration: none;
+  padding: 12px 28px;
+  border-radius: 30px; /* bentuk kapsul */
+  transition: 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.hero-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+}
+
