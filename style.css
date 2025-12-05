@@ -549,32 +549,41 @@ footer {
   transform: scale(1.05);
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
 }
+
+/* Container utama */
 .why-us {
   text-align: center;
-  padding: 40px 20px;
+  padding: 50px 20px;
 }
 
+/* Judul utama */
 .why-us h2 {
-  font-size: 28px;
-  margin-bottom: 30px;
+  font-size: 32px;
+  margin-bottom: 40px;
   font-weight: 700;
 }
 
+/* Setiap poin */
 .reason {
-  max-width: 700px;
-  margin: 0 auto 25px;
-  text-align: left;
+  max-width: 750px;
+  margin: 0 auto 35px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25); /* garis pemisah */
 }
 
-.reason h3 {
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 5px;
+/* Judul tiap poin */
+.reason-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 
+/* Paragraf */
 .reason p {
   margin: 0;
+  font-size: 17px;
   line-height: 1.6;
 }
+
 
 
