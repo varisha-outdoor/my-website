@@ -32,9 +32,10 @@ body {
 
 
 .logo img {
-  height: 30px; 
+  height: 60px;   
   width: auto;
   border-radius: 8px;
+}
 }
 
 .nav-links {
@@ -586,6 +587,7 @@ footer {
 .keunggulan .point h3,
 .keunggulan .point p {
     color: #ffffff !important;
+
 
 
 
