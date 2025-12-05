@@ -563,8 +563,8 @@ footer {
 
 .keunggulan .point {
   max-width: 600px;
-  margin: 0 auto 12px auto; /* jarak antar poin dipersempit */
-  padding-top: 5px;         /* sedikit dinaikkan */
+  margin: 0 auto 12px auto;
+  padding-top: 5px;
   text-align: left;
 }
 
@@ -572,15 +572,14 @@ footer {
   margin: 0 0 3px 0;
   font-size: 18px;
   font-weight: bold;
-  color: white !important;
+  color: white !important;    /* memastikan tetap putih */
 }
 
 .keunggulan .point p {
   margin: 0 0 5px;
-  color: white;
-  line-height: 1.4;         /* sedikit lebih rapat */
+  color: white !important;    /* memastikan tetap putih */
+  line-height: 1.4;
 }
-
+.keunggulan {
+  margin-top: 80px;
 }
-
-
