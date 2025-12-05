@@ -23,7 +23,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 30px;   /* tambahkan ruang biar logo muat */
+  padding: 15px 30px;  
   backdrop-filter: blur(6px);
   z-index: 1000;
 }
@@ -585,6 +585,7 @@ footer {
 .keunggulan .point h3,
 .keunggulan .point p {
     color: #ffffff !important;
+
 
 
 
