@@ -12,18 +12,21 @@ body {
   color: #333;
 }
 
+/* Navbar */
 .navbar {
   position: fixed;
   top: 0;
   width: 100%;
-  background: rgb(253, 253, 253);
+  background: rgb(255, 255, 255); /* transparan footer */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 25px;  
-  backdrop-filter: blur(6px);
+  padding: 15px 30px;
+  backdrop-filter: blur(6px); /* efek blur lembut */
   z-index: 1000;
+  color: #ffffff;
 }
+
 
 
 .logo img {
@@ -581,6 +584,7 @@ footer {
 .keunggulan .point h3,
 .keunggulan .point p {
     color: #ffffff !important;
+
 
 
 
