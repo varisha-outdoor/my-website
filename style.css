@@ -569,10 +569,10 @@ footer {
 }
 
 .keunggulan .point h3 {
-  margin: 0 0 3px 0;        /* subjudul lebih dekat dengan deskripsi */
+  margin: 0 0 3px 0;
   font-size: 18px;
   font-weight: bold;
-  color: white;
+  color: white !important;
 }
 
 .keunggulan .point p {
@@ -582,4 +582,5 @@ footer {
 }
 
 }
+
 
