@@ -154,3 +154,12 @@ footer { background: rgb(0,6,24); color:#fff; padding:40px 20px; text-align:cent
   transform: scale(1.1);
   background-color: #20ba5a;
 }
+
+.page-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #0d3d2e;
+  letter-spacing: 0.5px;
+}
