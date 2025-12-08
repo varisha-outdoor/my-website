@@ -559,53 +559,34 @@ footer {
   margin: 0 auto 20px;
 }
 
-/* SECTION KEUNGGULAN — Versi Rapi */
+/* Perbaikan ukuran judul & posisi container */
 .keunggulan {
-    max-width: 1100px;
-    margin: 40px auto; /* ngasih jarak biar gak mepet */
-    padding: 50px 40px;
+    max-width: 900px;        /* biar kontennya ketengah */
+    margin: 40px auto;       /* auto = center */
+    padding: 50px 30px;
     background: #034044;
     border-radius: 14px;
     color: #ffffff;
 }
 
-.keunggulan h2 {
-    font-size: 32px;
-    font-weight: 800;
-    text-align: center;
-    margin-bottom: 35px;
-    letter-spacing: 1px;
-}
-
 .point {
-    margin-bottom: 30px;
+    margin-bottom: 24px;
 }
 
 .point h3 {
-    font-size: 24px;
+    font-size: 20px;         /* lebih kecil */
     font-weight: 700;
-    margin-bottom: 5px;
+    margin-bottom: 4px;
     color: #ffffff;
+    display: flex;
+    gap: 6px;                /* nomor & teks lebih dekat */
+    align-items: center;
 }
 
 .point p {
-    font-size: 18px;
-    line-height: 1.6;
+    font-size: 17px;
+    line-height: 1.55;
     color: #ffffff;
 }
 
-/* Responsif HP */
-@media (max-width: 768px) {
-    .keunggulan {
-        padding: 30px 20px;
-    }
-
-    .point h3 {
-        font-size: 20px;
-    }
-
-    .point p {
-        font-size: 16px;
-    }
-}
 
