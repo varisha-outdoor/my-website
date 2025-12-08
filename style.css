@@ -618,6 +618,10 @@ footer {
 .keunggulan .point p {
     color: #ffffff !important;
 }
+.keunggulan h3,
+.keunggulan p {
+  color: #ffffff !important;
+}
 
 
 
