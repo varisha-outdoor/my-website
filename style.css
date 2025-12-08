@@ -553,19 +553,20 @@ footer {
 
 
 .categories > img {
-  width: 600px;
+  width: 300px;
   max-width: 100%;
   display: block;
   margin: 0 auto 20px;
 }
 
 .keunggulan h2 {
-  margin-top: 70px;
+  margin-top: 80px;
   margin-bottom: 35px;
   text-align: center;
   color: white;
   font-size: 28px;
 }
+
 
 
 
