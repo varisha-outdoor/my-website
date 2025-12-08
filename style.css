@@ -559,22 +559,14 @@ footer {
   margin: 0 auto 20px;
 }
 
-.section-title-number {
-  font-size: 22px;
-  font-weight: 700;
+.keunggulan h2 {
+  margin-top: 70px;
+  margin-bottom: 35px;
+  text-align: center;
   color: white;
-  text-align: center;     /* Biar posisinya berada di tengah (bukan rata tengah teks) */
-  margin-bottom: 5px;     /* Jarak ke isi */
+  font-size: 28px;
 }
 
-.section-description {
-  font-size: 17px;        /* Perbesar isi */
-  color: white;
-  text-align: center;
-  margin-top: 0;
-  margin-bottom: 25px;    /* Kurangi jarak ke poin berikutnya */
-  line-height: 1.5;
-}
 
 
 
