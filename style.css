@@ -622,6 +622,19 @@ footer {
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
+.info-table h2 {
+  margin: 10px 0; /* atur jarak atas & bawah */
+}
+
+/* kalau mau lebih rapat lagi antara h2 pertama dan kedua */
+.info-table h2:first-of-type {
+  margin-bottom: 5px; 
+}
+
+.info-table h2:nth-of-type(2) {
+  margin-top: 5px;
+}
+
 
 
 
