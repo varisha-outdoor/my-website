@@ -623,17 +623,19 @@ footer {
 }
 
 .info-table h2 {
-  margin: 10px 0; /* atur jarak atas & bawah */
+  margin: 10px 0;
 }
 
-/* kalau mau lebih rapat lagi antara h2 pertama dan kedua */
 .info-table h2:first-of-type {
-  margin-bottom: 5px; 
+  margin-bottom: 5px;
+  font-size: 25px;   /* atur sesuai selera */
+  font-weight: 700;
 }
 
 .info-table h2:nth-of-type(2) {
   margin-top: 5px;
 }
+
 
 
 
