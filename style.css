@@ -559,27 +559,23 @@ footer {
   margin: 0 auto 20px;
 }
 
-.point {
-    margin-bottom: 18px;
-    text-align: left;
+.section-title-number {
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  text-align: center;     /* Biar posisinya berada di tengah (bukan rata tengah teks) */
+  margin-bottom: 5px;     /* Jarak ke isi */
 }
 
-.point h3 {
-    font-size: 22px;
-    font-weight: 700;
-    margin-bottom: 4px;
-    color: #ffffff;
-    display: flex;
-    gap: 6px;
-    align-items: center;
+.section-description {
+  font-size: 17px;        /* Perbesar isi */
+  color: white;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 25px;    /* Kurangi jarak ke poin berikutnya */
+  line-height: 1.5;
 }
 
-.point p {
-    font-size: 19px;
-    line-height: 1.45;
-    color: #ffffff;
-    margin-bottom: 6px;
-}
 
 
 
