@@ -559,46 +559,53 @@ footer {
   margin: 0 auto 20px;
 }
 
-/* FIX SECTION KEUNGGULAN */
+/* SECTION KEUNGGULAN — Versi Rapi */
 .keunggulan {
-    width: 100%;
+    max-width: 1100px;
+    margin: 40px auto; /* ngasih jarak biar gak mepet */
+    padding: 50px 40px;
     background: #034044;
-    padding: 60px 20px;
-    border-radius: 12px;
+    border-radius: 14px;
     color: #ffffff;
 }
 
 .keunggulan h2 {
     font-size: 32px;
-    font-weight: 700;
+    font-weight: 800;
     text-align: center;
-    margin-bottom: 25px;
-    color: #ffffff;
+    margin-bottom: 35px;
+    letter-spacing: 1px;
 }
 
 .point {
-    margin-bottom: 28px;
-    text-align: left;
+    margin-bottom: 30px;
 }
 
 .point h3 {
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 700;
-    margin-bottom: 6px;
+    margin-bottom: 5px;
     color: #ffffff;
 }
 
 .point p {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.6;
     color: #ffffff;
 }
 
+/* Responsif HP */
 @media (max-width: 768px) {
-    .point h3 {
-        font-size: 22px;
+    .keunggulan {
+        padding: 30px 20px;
     }
+
+    .point h3 {
+        font-size: 20px;
+    }
+
     .point p {
-        font-size: 18px;
+        font-size: 16px;
     }
 }
+
