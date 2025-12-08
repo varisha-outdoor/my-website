@@ -563,15 +563,17 @@ footer {
 }
 
 .keunggulan p {
-  font-size: 20px; /
-  line-height: 1.6;
-  margin-bottom: 12px;
-  text-align: left;
+  font-size: 24px; /* sebelumnya 18–20px */
+  line-height: 1.7;
+  margin-bottom: 16px;
 }
 
+/*  */
 .keunggulan .judul {
+  font-size: 26px; /* sebelumnya 21px */
   font-weight: 700;
-  font-size: 21px; /
+  display: inline-block;
+  margin-bottom: 5px;
 }
 
 .categories > img {
@@ -580,6 +582,7 @@ footer {
   display: block;
   margin: 0 auto 20px; /* 
 }
+
 
 
 
