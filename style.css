@@ -563,14 +563,14 @@ footer {
 }
 
 .keunggulan p {
-  font-size: 24px; /* sebelumnya 18–20px */
+  font-size: 22px; /* sebelumnya 18–20px */
   line-height: 1.7;
   margin-bottom: 16px;
 }
 
 /*  */
 .keunggulan .judul {
-  font-size: 26px; /* sebelumnya 21px */
+  font-size: 24px; /* sebelumnya 21px */
   font-weight: 700;
   display: inline-block;
   margin-bottom: 5px;
@@ -581,6 +581,34 @@ footer {
   max-width: 100%; 
   display: block;
   margin: 0 auto 20px; /* 
+}
+
+.point {
+  margin-bottom: 28px;
+  text-align: left;
+}
+
+.point h3 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: #ffffff;
+}
+
+.point p {
+  font-size: 20px;
+  line-height: 1.6;
+  color: #ffffff;
+}
+
+/* Responsif HP */
+@media (max-width: 768px) {
+  .point h3 {
+    font-size: 22px;
+  }
+  .point p {
+    font-size: 18px;
+  }
 }
 
 
