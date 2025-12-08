@@ -555,34 +555,24 @@ footer {
     margin: 0 auto;
     padding: 40px 20px;
 }
-
 .keunggulan h2 {
-    text-align: center;
-    color: #ffffff;
-    margin-bottom: 35px;
+  font-size: 32px; /
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 25px;
 }
 
 .keunggulan p {
-    color: #ffffff;
-    font-size: 18px;
-    margin-bottom: 15px;
-    line-height: 1.5;
+  font-size: 20px; /
+  line-height: 1.6;
+  margin-bottom: 12px;
+  text-align: left;
 }
 
 .keunggulan .judul {
-    font-weight: 700;
-    color: #ffffff;
+  font-weight: 700;
+  font-size: 21px; /
 }
-
-.keunggulan {
-  margin-top: 80px;
-}
-.keunggulan h2,
-.keunggulan h3,
-.keunggulan p,
-.keunggulan .point h3,
-.keunggulan .point p {
-    color: #ffffff !important;
 
 .categories > img {
   width: 600px; /* 
@@ -590,6 +580,7 @@ footer {
   display: block;
   margin: 0 auto 20px; /* 
 }
+
 
 
 
