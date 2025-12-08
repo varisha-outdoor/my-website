@@ -566,6 +566,34 @@ footer {
   color: white;
   font-size: 28px;
 }
+/* Keunggulan – Styling Poin 1–6 */
+.point {
+  max-width: 800px;
+  margin: 0 auto 35px;
+  padding: 0 20px;
+}
+
+.point h3 {
+  font-size: 20px;
+  color: #ffd700; /* emas elegan */
+  font-weight: bold;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.point p {
+  font-size: 17px;
+  color: #ffffff; /* putih bersih */
+  line-height: 1.5;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+/* Jarak antar poin biar nggak terlalu renggang */
+.point:not(:last-child) {
+  margin-bottom: 25px;
+}
+
 
 
 
