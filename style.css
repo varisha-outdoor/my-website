@@ -553,17 +553,19 @@ footer {
 
 
 .categories > img {
-  width: 600px; /* 
-  max-width: 100%; 
+  width: 600px;
+  max-width: 100%;
   display: block;
-  margin: 0 auto 20px; /* 
+  margin: 0 auto 20px;
 }
+
+/* FIX SECTION KEUNGGULAN */
 .keunggulan {
     width: 100%;
-    background: #034044; /* warna gelap biar teks putih muncul */
+    background: #034044;
     padding: 60px 20px;
     border-radius: 12px;
-    color: #ffffff; /* warna default teks */
+    color: #ffffff;
 }
 
 .keunggulan h2 {
@@ -592,7 +594,6 @@ footer {
     color: #ffffff;
 }
 
-/* Responsif HP */
 @media (max-width: 768px) {
     .point h3 {
         font-size: 22px;
@@ -601,30 +602,3 @@ footer {
         font-size: 18px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
